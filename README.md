@@ -46,3 +46,7 @@ Para el análisis, se espera que los datos limpios cumplan con:
 - **Fuente:** Google Drive.
 - **Procesamiento:** Python (Pandas).
 - **Visualización:** Looker Studio.
+
+## 📚 Documentación
+
+- [Documentación del Proyecto](docs/README.md)
