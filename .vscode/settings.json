@@ -1,4 +1,4 @@
 {
-    "python.defaultInterpreterPath": "c:\\Users\\Rai De  León\\Documents\\1Projects\\CERAMIX\\ceramix\\Scripts\\python.exe",
+    "python.defaultInterpreterPath": "${workspaceFolder}\\ceramix\\Scripts\\python.exe",
     "python.terminal.activateEnvironment": true
 }
