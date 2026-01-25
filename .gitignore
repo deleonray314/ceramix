@@ -1,2 +1,6 @@
 # Entorno virtual específico
 ceramix/
+
+# Archivos de configuración
+.env
+credentials.json
