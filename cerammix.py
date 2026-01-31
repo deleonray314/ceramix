@@ -1,3 +1,8 @@
+##############################################
+# Modificación de los datos en El Google Drive 
+##############################################
+
+# Import libraries 
 import pandas as pd
 import gspread
 import io
@@ -31,7 +36,7 @@ def flujo_completo(nombre_hoja):
         spreadsheet = client.open(nombre_hoja)
         sheet = spreadsheet.get_worksheet(0)
 
-        #sheet.delete_rows(2)  Se elimnan las 2 primeras filas de la hoja 
+        #sheet.delete_rows(2)  En caso de recibir un encabezado Se elimnan las 2 primeras filas de la hoja 
 
 
         datos = sheet.get_all_values()
