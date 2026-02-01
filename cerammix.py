@@ -20,9 +20,11 @@ CUENTA_DE_SERVICIO = os.getenv("GOOGLE_APP_CREDENTIALS")
 FOLDER_ID = os.getenv('CARPETA_DESTINO')
 SHEET_NAME = os.getenv('SHEET_NAME')
 
+
+# Scopes para la API de Google Sheets y Drive (A que nivel se va operar)
 SCOPES = [
-    'https://www.googleapis.com/auth/spreadsheets',
-    'https://www.googleapis.com/auth/drive'
+    'https://www.googleapis.com/auth/spreadsheets',  # Google sheets (Leer y escribir en hojas de calculo)
+    'https://www.googleapis.com/auth/drive' # Google drive (Leer y escribir en archivos de drive)
 ]
 
 creds = Credentials.from_service_account_file(CUENTA_DE_SERVICIO, scopes=SCOPES)
