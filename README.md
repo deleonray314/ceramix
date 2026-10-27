@@ -1,5 +1,10 @@
 # CERAMIX Sales Analysis Project 📊
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![pandas](https://img.shields.io/badge/pandas-data%20analysis-150458)
+![NumPy](https://img.shields.io/badge/NumPy-numerical-013243)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-visualization-11557c)
+
 ## 📋 Descripción del Proyecto
 
 Este proyecto se centra en la **ingeniería y limpieza de datos** de las ventas de la empresa **CERAMIX** (2025).
